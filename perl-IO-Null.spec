@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IO
-%define	pnam	Null
+%define		pdir	IO
+%define		pnam	Null
 Summary:	IO::Null - class for null filehandles
 Summary(pl):	IO::Null - klasa do pustych uchwytów plików
 Name:		perl-IO-Null
