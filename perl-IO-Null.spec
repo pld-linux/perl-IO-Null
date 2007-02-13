@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Null
 Summary:	IO::Null - class for null filehandles
-Summary(pl.UTF-8):   IO::Null - klasa do pustych uchwytów plików
+Summary(pl.UTF-8):	IO::Null - klasa do pustych uchwytów plików
 Name:		perl-IO-Null
 Version:	1.01
 Release:	1
