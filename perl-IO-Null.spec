@@ -9,7 +9,7 @@ Summary:	IO::Null - class for null filehandles
 Summary(pl.UTF-8):	IO::Null - klasa do pustych uchwytów plików
 Name:		perl-IO-Null
 Version:	1.01
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
