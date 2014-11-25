@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	IO
 %define		pnam	Null
+%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Null - class for null filehandles
 Summary(pl.UTF-8):	IO::Null - klasa do pustych uchwytów plików
 Name:		perl-IO-Null
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	54d6084398f8b4e7062660b9ccc835a8
+URL:		http://search.cpan.org/dist/IO-Null/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
