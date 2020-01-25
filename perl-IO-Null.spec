@@ -4,7 +4,6 @@
 
 %define		pdir	IO
 %define		pnam	Null
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Null - class for null filehandles
 Summary(pl.UTF-8):	IO::Null - klasa do pustych uchwytów plików
 Name:		perl-IO-Null
